@@ -1,7 +1,3 @@
-# Videos Directory
-
-Place your video files in this directory if you're hosting them locally.
-
 ## Video Options:
 
 ### Option 1: YouTube Videos (Recommended)
@@ -47,15 +43,3 @@ Add this CSS to styles.css for local videos:
     box-shadow: var(--shadow-md);
 }
 ```
-
-## Video Compression:
-To reduce file size, use tools like:
-- HandBrake (free, cross-platform)
-- FFmpeg command line
-- Online tools like CloudConvert
-
-## Best Practices:
-- Use YouTube for long videos (>2 minutes)
-- Add captions/subtitles for accessibility
-- Provide alternative text descriptions
-- Test video playback on different devices
