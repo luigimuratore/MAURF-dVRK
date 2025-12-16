@@ -4,27 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit">
+    <meta name="keywords" content="Multi-Agent, Reinforcement Learning, Surgical Robotics, da Vinci, dVRK">
     <meta property="og:title" content="MAURF-dVRK: Multi-Agent Framework for Surgical Robotics">
     <meta property="og:description" content="MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit">
     <meta property="og:type" content="website">
     <title>MAURF-dVRK: Multi-Agent Framework for Surgical Robotics</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <!-- Header Section -->
         <header>
-            <h1>MAURF-dVRK</h1>
-            <h2 class="subtitle">Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit</h2>
+            <!-- Logo -->
+            <img src="assets/images/surgicalScene.png" alt="MAURF-dVRK Logo" class="paper-logo">
+            
+            <h1 class="publication-title">MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit</h1>
+            
+            <!-- Conference/Venue (optional - uncomment and edit as needed) -->
+            <!-- <h2 class="subtitle venue">ICRA 2025</h2> -->
             
             <div class="authors">
-                <div class="author-info">
-                    <span class="institution">Your Institution</span>
-                    <p class="affiliation">Research Lab / Department</p>
-                </div>
+                <span class="author-block">
+                    <a href="#">Luigi Muratore</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="#">Federica Barontini</a><sup>1,2</sup>,
+                </span>
+                <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao">Giuseppe Averta</a><sup>1</sup>
+                </span>
+            </div>
+
+            <div class="affiliations">
+                <span class="affiliation-block"><sup>1</sup>Politecnico di Torino</span><br>
+                <span class="affiliation-block"><sup>2</sup>Minimally Invasive Therapy and Innovation Center</span>
+            </div>
+
+            <div class="contact-email">
+                <span class="email-block">
+                    <small><tt>luigi.muratore@studenti.polito.it</tt></small>
+                </span>
             </div>
 
             <!-- Action Buttons -->
@@ -61,14 +84,19 @@
             <div class="abstract-content">
                 <h2>Abstract</h2>
                 <p>
-                    The MAURF-dVRK (Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit) represents a novel approach 
-                    to autonomous surgical robotics. Our framework enables multiple agents to collaborate seamlessly in complex surgical 
-                    tasks, leveraging reinforcement learning and advanced coordination mechanisms.
+                    <strong>Purpose:</strong> Reliable automation of surgical suturing requires accurate and flexible simulation tools that bridge learning and clinical practice. This work presents a unified Unity–ROS simulation framework for autonomous surgical robotics with the da Vinci Research Kit (dVRK). The framework supports reinforcement-learning-based training of surgical tasks such as needle grasping and placement, while also enabling interactive teleoperation and surgical training. Real-time communication with the dVRK master console allows surgeon control of simulated patient-side manipulators (PSMs), and an integrated graphical user interface (GUI) supports environment tuning for reward design, algorithm development, and sim-to-real validation.
                 </p>
                 <p>
-                    By integrating state-of-the-art machine learning techniques with the da Vinci Research Kit platform, MAURF-dVRK 
-                    provides a unified framework for developing, testing, and deploying autonomous surgical assistance systems. 
-                    The framework supports various surgical tasks including tissue manipulation, suturing, and tool coordination.
+                    <strong>Methods:</strong> A physics-based surgical environment was developed in Unity, incorporating a full kinematic reconstruction of the dVRK to ensure accurate joint-level and end-effector behavior. Bidirectional ROS communication enables real-time control, state streaming, and visualization between the simulation and the physical master console. Proximal Policy Optimization (PPO) was used for policy training, combined with curriculum learning to progressively increase task difficulty. Domain randomization was applied to improve robustness and generalization. In addition, a multi-agent reinforcement learning strategy is under investigation to enhance cooperative performance in complex tasks such as suturing.
+                </p>
+                <p>
+                    <strong>Results:</strong> Preliminary simulations demonstrated stable policy convergence and precise execution of autonomous needle manipulation tasks. Policies trained with domain randomization showed increased robustness to visual and positional variations, achieving consistent performance across randomized conditions and indicating improved generalization.
+                </p>
+                <p>
+                    <strong>Conclusions:</strong> The proposed Unity–ROS–dVRK framework provides a modular, high-fidelity platform for developing and benchmarking autonomous surgical skills. By integrating accurate kinematics, reinforcement learning, and teleoperation, it supports both autonomous training and human-in-the-loop control in realistic surgical scenarios. Direct ROS connectivity and an integrated GUI further facilitate rapid development and sim-to-real experimentation.
+                </p>
+                <p>
+                    <strong>Keywords:</strong> da Vinci Research Kit (dVRK); surgical robotics; reinforcement learning; Unity; ROS; multi-agent systems; autonomous surgery; simulation.
                 </p>
                 <p>
                     <strong>Key Features:</strong>
@@ -76,10 +104,9 @@
                 <ul>
                     <li>Multi-agent coordination and collaboration</li>
                     <li>Unified reinforcement learning framework</li>
-                    <li>Real-time surgical task execution</li>
-                    <li>Modular and extensible architecture</li>
+                    <li>Graphics User Interface (GUI)</li>
+                    <li>ROS integration</li>
                     <li>Integration with da Vinci Research Kit</li>
-                    <li>Comprehensive simulation environment</li>
                 </ul>
             </div>
         </section>
@@ -89,36 +116,33 @@
             <h2>Demo Videos</h2>
             
             <div class="video-grid">
+            
                 <div class="video-container">
-                    <div class="video-placeholder">
-                        <p>Add your video here</p>
-                        <p class="hint">Replace with YouTube embed or video file</p>
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="assets/videos/final2.m4v" 
+                            title="YouTube video player" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
-                    <p class="caption">Main demonstration of MAURF-dVRK framework in action</p>
+                    <p class="caption">Test final2</p>
                 </div>
 
                 <div class="video-container">
-                    <div class="video-placeholder">
-                        <p>Add your video here</p>
-                        <p class="hint">Replace with YouTube embed or video file</p>
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="assets/videos/final2.m4v" 
+                            title="YouTube video player" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                     <p class="caption">Multi-agent coordination example</p>
                 </div>
-            </div>
 
-            <!-- Example of how to embed YouTube video (uncomment and replace VIDEO_ID) -->
-            
-            <div class="video-container">
-                <div class="video-wrapper">
-                    <iframe 
-                        src="assets/videos/final2.m4v" 
-                        title="YouTube video player" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <p class="caption">Test final2</p>
-            </div>
+
+  
            
         </section>
 
@@ -128,7 +152,7 @@
             
             <div class="image-grid">
                 <figure class="gallery-item">
-                    <img src="assets/images/placeholder-1.png" alt="System Architecture" class="gallery-image">
+                    <img src="assets/images/layer.png" alt="System Architecture" class="gallery-image">
                     <figcaption>System Architecture</figcaption>
                 </figure>
 
@@ -143,7 +167,7 @@
                 </figure>
 
                 <figure class="gallery-item">
-                    <img src="assets/images/placeholder-4.png" alt="Multi-Agent Coordination" class="gallery-image">
+                    <img src="assets/images/multiagent.png" alt="Multi-Agent Coordination" class="gallery-image">
                     <figcaption>Multi-Agent Coordination</figcaption>
                 </figure>
             </div>
@@ -184,7 +208,7 @@
             <h2>Contact</h2>
             <p>For questions or collaboration opportunities, please reach out:</p>
             <ul>
-                <li>Email: <a href="mailto:your.email@institution.edu">your.email@institution.edu</a></li>
+                <li>Email: <a href="mailto:your.email@institution.edu">luigi.muratore@studenti.polito.it</a></li>
                 <li>GitHub: <a href="https://github.com/luigimuratore">@luigimuratore</a></li>
             </ul>
         </section>
