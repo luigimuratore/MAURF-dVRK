@@ -1,8 +1,14 @@
+
 # MAURF-dVRK
 
-Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit
 
-![Surgical Scene](assets/images/surgicalScene.png)
+<p align="center">
+Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit
+</p>
+
+<p align="center">
+<img src="assets/images/surgicalScene.png" alt="Surgical Scene" width="500">
+</p>
 
 ## Project Website
 
