@@ -273,6 +273,82 @@ figcaption {
     margin-bottom: 2rem;
 }
 
+.video-section-container {
+    margin: 3rem 0;
+    padding: 2rem;
+    background-color: var(--bg-light);
+    border-radius: 1rem;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.task-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid var(--primary-color);
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.task-btn:hover {
+    background-color: var(--bg-light);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.task-btn.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+    box-shadow: var(--shadow-md);
+}
+
+.single-agent-videos {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.single-agent-videos .task-video-group {
+    display: none;
+}
+
+.single-agent-videos .task-video-group.active-video {
+    display: block;
+}
+
+.video-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .video-grid-three {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
 /* Video Grid */
 .video-grid {
     display: grid;
@@ -294,12 +370,43 @@ figcaption {
     box-shadow: var(--shadow-md);
 }
 
+/* Multi-agent videos have wider aspect ratio */
+#video-multi .video-wrapper {
+    padding-bottom: 42.86%; /* 21:9 aspect ratio for wider videos */
+}
+
 .video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Task-specific video zoom and positioning */
+#video-reaching .video-wrapper video {
+    transform: scale(1.65) translate(2%, 2%);
+}
+
+#video-placement .video-wrapper video {
+    transform: scale(1.59) translate(0%, 3.5%); 
+}
+
+#video-complete .video-wrapper video {
+    transform: scale(1.5) translate(0%, 1%); 
+}
+
+#video-multi .video-wrapper video {
+    transform: scale(1.25) translate(-3%, 4.5%); 
 }
 
 .video-placeholder {
@@ -342,7 +449,7 @@ figcaption {
 }
 
 .gallery-image {
-    width: 95%;
+    width: 75%;
     height: 250px;
     object-fit: cover;
     border-radius: 0.5rem;
@@ -350,6 +457,38 @@ figcaption {
     background-color: var(--bg-gray);
     border: 1px solid var(--border-color);
 }
+
+#task .gallery-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-md);
+    background-color: var(--bg-gray);
+    border: 1px solid var(--border-color);
+    transform: scale(1) translate(0%, 0%);
+}
+
+.plot-image {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-md);
+    background-color: var(--bg-gray);
+    border: 1px solid var(--border-color);
+}
+
+.gui-image {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-md);
+    background-color: var(--bg-gray);
+    border: 1px solid var(--border-color);
+}
+
 
 .gallery-item figcaption {
     margin-top: 0.75rem;
