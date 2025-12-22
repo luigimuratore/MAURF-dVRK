@@ -7,11 +7,13 @@
 
 <div align="center">
 
-### [Luigi Muratore](https://github.com/luigimuratore)¹, [Federica Barontini](#)¹², [Giuseppe Averta](https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao)¹
+### [Luigi Muratore](https://github.com/luigimuratore)¹, [Federica Barontini](https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao)¹², [Francesco Marzola](https://scholar.google.com/citations?user=SZOxkAsAAAAJ&hl=en&oi=ao)², [Matteo Pescio](https://scholar.google.com/citations?user=Nmre5_gAAAAJ&hl=en&oi=ao)², [Alberto Arezzo](https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao)²,[Giuseppe Averta](https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao)¹
 
 ¹Politecnico di Torino | ²Minimally Invasive Therapy and Innovation Center
 
-[**[Paper]**](#) | [**[Documentation]**](#) | [**[Website]**](https://luigimuratore.github.io/MAURF-dVRK/)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](#)
+[![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](#)
+[![Website](https://img.shields.io/badge/Website-green?style=for-the-badge&logo=google-chrome&logoColor=white)](https://luigimuratore.github.io/MAURF-dVRK/)
 
 </div>
 
