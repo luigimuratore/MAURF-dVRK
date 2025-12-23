@@ -168,20 +168,12 @@ If you use this work in your research, please cite:
 
 For questions or collaboration opportunities, please reach out:
 
-- **Email:** luigi.muratore@studenti.polito.it
+- **Email:** gigiomuratore@gmail.com
 - **GitHub:** [@luigimuratore](https://github.com/luigimuratore)
-
----
-
-## 🙏 Acknowledgments
-
-This page template is adapted from [CRESSim](https://tbs-ualberta.github.io/CRESSim/) and [Nerfies](https://nerfies.github.io/).
 
 ---
 
 <div align="center">
   <p>© 2025 MAURF-dVRK Project</p>
 </div>
-
-- GitHub: [@luigimuratore](https://github.com/luigimuratore)
 
