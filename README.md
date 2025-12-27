@@ -30,14 +30,16 @@
   <span class="author-block">
     <a href="https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao">Giuseppe Averta</a><sup>4</sup>
   </span>
-</div><br >
+</div><br>
+
+
 <div class="affiliations">
   <span class="affiliation-block"><sup>1</sup>DET, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
   <span class="affiliation-block"><sup>2</sup>Department of Surgical Sciences, Università degli Studi di Torino, Corso Dogliotti 14, Turin, 10126, TO, Italy.</span><br>
   <span class="affiliation-block"><sup>3</sup>DIMEAS, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
   <span class="affiliation-block"><sup>4</sup>DAUIN, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
   <span class="affiliation-block"><sup>5</sup>Robotics and Mechatronics, University of Twente, Drienerlolaan 5, Enschede, 7522, NB, Netherlands.</span><br>
-</div>
+</div><br><br>
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](#)
 [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](#)
