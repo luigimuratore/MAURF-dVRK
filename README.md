@@ -7,9 +7,37 @@
 
 <div align="center">
 
-### [Luigi Muratore](https://github.com/luigimuratore)¹, [Federica Barontini](https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao)¹², [Francesco Marzola](https://scholar.google.com/citations?user=SZOxkAsAAAAJ&hl=en&oi=ao)², [Matteo Pescio](https://scholar.google.com/citations?user=Nmre5_gAAAAJ&hl=en&oi=ao)², [Alberto Arezzo](https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao)²,[Giuseppe Averta](https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao)¹
 
-¹Politecnico di Torino | ²Minimally Invasive Therapy and Innovation Center
+<div class="authors">
+  <span class="author-block">
+    <a href="#">Luigi Muratore</a><sup>1,2</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao">Federica Barontini</a><sup>2</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=SZOxkAsAAAAJ&hl=en&oi=ao">Francesco Marzola</a><sup>2</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=Nmre5_gAAAAJ&hl=en&oi=ao">Matteo Pescio</a><sup>2,3</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao">Alberto Arezzo</a><sup>2</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.it/citations?user=jfu9BFkAAAAJ&hl=en&oi=ao">Giulio Dagnino</a><sup>2,5</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=i4rm0tYAAAAJ&hl=en&oi=ao">Giuseppe Averta</a><sup>4</sup>
+  </span>
+</div><br >
+<div class="affiliations">
+  <span class="affiliation-block"><sup>1</sup>DET, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
+  <span class="affiliation-block"><sup>2</sup>Department of Surgical Sciences, Università degli Studi di Torino, Corso Dogliotti 14, Turin, 10126, TO, Italy.</span><br>
+  <span class="affiliation-block"><sup>3</sup>DIMEAS, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
+  <span class="affiliation-block"><sup>4</sup>DAUIN, Politecnico di Torino, Corso Duca degli Abruzzi 24, Turin, 10129, TO, Italy.</span><br>
+  <span class="affiliation-block"><sup>5</sup>Robotics and Mechatronics, University of Twente, Drienerlolaan 5, Enschede, 7522, NB, Netherlands.</span><br>
+</div>
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](#)
 [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](#)
