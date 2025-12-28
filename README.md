@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributors](https://img.shields.io/github/contributors/luigimuratore/MAURF-dVRK)](https://github.com/luigimuratore/MAURF-dVRK/graphs/contributors)
+
 
 # MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit
 
