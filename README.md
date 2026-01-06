@@ -2,7 +2,8 @@
 [![Contributors](https://img.shields.io/github/contributors/luigimuratore/MAURF-dVRK)](https://github.com/luigimuratore/MAURF-dVRK/graphs/contributors)
 
 
-# MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit
+# A Multi-Agent Framework For Teleoperation and Autonomous Needle Manipulation on the dVRK
+
 
 <div align="center">
   <img src="assets/images/surgicalScene.png" alt="MAURF-dVRK" width="300"/>
