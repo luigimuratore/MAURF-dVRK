@@ -52,7 +52,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](#)
 [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](#)
-[![Website](https://img.shields.io/badge/Website-green?style=for-the-badge&logo=google-chrome&logoColor=white)](https://luigimuratore.github.io/MAURF-dVRK/)
+[![Website](https://img.shields.io/badge/Website-green?style=for-the-badge&logo=google-chrome&logoColor=white)](https://luigimuratore.github.io/Nail-it/)
 
 </div>
 
@@ -84,7 +84,7 @@
 
 ## 🎬 Demo Videos
 
-For interactive demos, visit our [**project website**](https://luigimuratore.github.io/MAURF-dVRK/).
+For interactive demos, visit our [**project website**](https://luigimuratore.github.io/Nail-it/).
 
 ### Single Agent Tasks
 
