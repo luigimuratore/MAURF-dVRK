@@ -29,6 +29,9 @@
     <a href="https://scholar.google.com/citations?user=nnDCLvkAAAAJ&hl=en&oi=ao">Alberto Arezzo</a><sup>2</sup>,
   </span>
   <span class="author-block">
+    <a href="#">Carlo Alberto Ammirati</a><sup>2</sup>,
+  </span>
+  <span class="author-block">
     <a href="https://scholar.google.it/citations?user=jfu9BFkAAAAJ&hl=en&oi=ao">Giulio Dagnino</a><sup>2,5</sup>,
   </span>
   <span class="author-block">
