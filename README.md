@@ -1,9 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributors](https://img.shields.io/github/contributors/luigimuratore/MAURF-dVRK)](https://github.com/luigimuratore/MAURF-dVRK/graphs/contributors)
 
+<div align="center">
 
-# A Multi-Agent Framework For Teleoperation and Autonomous Needle Manipulation on the dVRK
+# Nail It!<br>a learNing framework for Autonomous surgIcaL suturIng and Teleoperation on the dVRK
 
+</div>
 
 <div align="center">
   <img src="assets/images/surgicalScene.png" alt="MAURF-dVRK" width="300"/>
