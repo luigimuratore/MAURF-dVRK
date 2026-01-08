@@ -668,3 +668,92 @@ footer {
         padding: 1.5rem 1rem;
     }
 }
+
+/* Code Section Styles */
+.code-section {
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin-top: 1.5rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #2d2d2d;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.code-title {
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.95rem;
+    color: #61dafb;
+    font-weight: 600;
+}
+
+.btn-small {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.code-section details {
+    background: #1e1e1e;
+}
+
+.code-section details[open] summary {
+    border-bottom: 1px solid #3d3d3d;
+    margin-bottom: 0;
+}
+
+.code-section pre {
+    margin: 0;
+    max-height: 500px;
+    overflow: auto;
+    background: #1e1e1e;
+}
+
+.code-section code {
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+/* Prism.js overrides */
+pre[class*="language-"] {
+    padding: 1rem;
+    margin: 0;
+    background: #1e1e1e !important;
+}
+
+code[class*="language-"] {
+    text-shadow: none;
+    background: none;
+    font-size: 0.8rem;
+}
+
+/* Remove line numbers styling */
+.code-section .line-numbers .line-numbers-rows {
+    display: none;
+}
+
+.code-section pre.line-numbers {
+    padding-left: 1rem;
+}
+
+/* Override any orange/white number styling */
+.code-section span.token.number {
+    color: #b5cea8;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+}
+

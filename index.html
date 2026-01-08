@@ -12,7 +12,8 @@ python3 -m http.server 8000 -->
     <meta property="og:title" content="MAURF-dVRK: Multi-Agent Framework for Surgical Robotics">
     <meta property="og:description" content="MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit">
     <meta property="og:type" content="website">
-    <title>MAURF-dVRK: Multi-Agent Framework for Surgical Robotics</title>
+    <title>Nail It!
+</title>
     
     <!-- web icon -->
     <link rel="icon" href="assets/images/surgicalScene-rounded.png">
@@ -20,6 +21,7 @@ python3 -m http.server 8000 -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,7 +31,8 @@ python3 -m http.server 8000 -->
             <!-- Logo -->
             <img src="assets/images/surgicalScene.png" alt="MAURF-dVRK Logo" class="paper-logo">
             
-            <h1 class="publication-title">A Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit</h1>
+            <h1 class="publication-title">Nail It! <br>
+                a learNing framework for Autonomous surgIcaL suturIng and Teleoperation on the dVRK</h1>
             
             <!-- Conference/Venue (optional - uncomment and edit as needed) -->
             <!-- <h2 class="subtitle venue">ICRA 2025</h2> -->
@@ -123,29 +126,33 @@ python3 -m http.server 8000 -->
             <div class="abstract-content">
                 <h2>Abstract</h2>
                 <p>
-                    <strong>Purpose:</strong> Reliable automation of surgical suturing requires accurate and flexible simulation tools that bridge learning and clinical practice. This work presents a unified Unity–ROS simulation framework for autonomous surgical robotics with the da Vinci Research Kit (dVRK). The framework supports reinforcement-learning-based training of surgical tasks such as needle grasping and placement, while also enabling interactive teleoperation and surgical training. Real-time communication with the dVRK master console allows surgeon control of simulated patient-side manipulators (PSMs), and an integrated graphical user interface (GUI) supports environment tuning for reward design, algorithm development, and sim-to-real validation.
+                    <strong>Purpose:</strong> Reliable automation of surgical suturing requires accurate and flexible simulation tools to effectively learn robot autonomous skills that match clinical practice. Yet, high-fidelity, ready-to-use learning frameworks remain scarce even for popular platforms like the da Vinci Research Kit (dVRK). We release Nail It!, a complete Unity–ROS–dVRK learning framework supporting both teleoperation data collection and Reinforcement Learning (RL) training of surgical primitives like needle grasping and placement. 
+
                 </p>
                 <p>
-                    <strong>Methods:</strong> A physics-based surgical environment was developed in Unity, incorporating a full kinematic reconstruction of the dVRK to ensure accurate joint-level and end-effector behavior. Bidirectional ROS communication enables real-time control, state streaming, and visualization between the simulation and the physical master console. Proximal Policy Optimization (PPO) was used for policy training, combined with curriculum learning to progressively increase task difficulty. Domain randomization was applied to improve robustness and generalization. In addition, a multi-agent reinforcement learning strategy is under investigation to enhance cooperative performance in complex tasks such as suturing.
+                    <strong>Methods:</strong> Nail It! features i) a physics-based Unity environment with full and accurate dVRK kinematic modelling, ii) a real-time ROS communication with the dVRK master console for active surgeon control of Patient-Side Manipulators (PSMs), and iii) an integrated Graphical User Interface (GUI) for environment tuning, reward design, learning algorithms development, and sim-to-real validation. We also provide full support for RL policies training, e.g. through Proximal Policy Optimization (PPO) with curriculum learning and domain randomization for robust policy training of suturing steps, and Multi Agent RL for multi-arm coordination.
+
                 </p>
                 <p>
-                    <strong>Results:</strong> Preliminary simulations demonstrated stable policy convergence and precise execution of autonomous needle manipulation tasks. Policies trained with domain randomization showed increased robustness to visual and positional variations, achieving consistent performance across randomized conditions and indicating improved generalization.
+                    <strong>Results:</strong> We experiment with Nail It! to learn autonomous suturing with our dVRK using PPO with curriculum learning to handle multi-step surgical procedures, and domain randomization techniques to mitigate the sim-to-real gap and enable policy deployment. Nail It! delivers policies that can solve the suturing task in simulation with 95% accuracy, with proven robustness over visual and positional variations up to 15mm (target).
+
                 </p>
                 <p>
-                    <strong>Conclusions:</strong> The proposed Unity–ROS–dVRK framework provides a modular, high-fidelity platform for developing and benchmarking autonomous surgical skills. By integrating accurate kinematics, reinforcement learning, and teleoperation, it supports both autonomous training and human-in-the-loop control in realistic surgical scenarios. Direct ROS connectivity and an integrated GUI further facilitate rapid development and sim-to-real experimentation.
+                    <strong>Conclusions:</strong> Nail It! provides a modular, high-fidelity platform for developing and benchmarking autonomous surgical skills. By integrating accurate kinematics, reinforcement learning, and teleoperation, it supports both autonomous training and human-in-the-loop control in realistic surgical scenarios. Direct ROS connectivity and an integrated GUI further facilitate rapid development and sim-to-real experimentation. 
+
                 </p>
                 <p>
-                    <strong>Keywords:</strong> da Vinci Research Kit (dVRK); surgical robotics; reinforcement learning; Unity; ROS; multi-agent systems; autonomous surgery; simulation.
-                </p>
-                <p>
-                    <strong>Key Features:</strong>
+                    <strong>Keywords:</strong>
                 </p>
                 <ul>
-                    <li>Multi-agent coordination and collaboration</li>
-                    <li>Unified reinforcement learning framework</li>
-                    <li>Graphics User Interface (GUI)</li>
+                    <li>Surgical robotics</li>
+                    <li>Reinforcement learning</li>
+                    <li>da Vinci Research Kit (dVRK)</li>
+                    <li>Autonomous suturing</li>
+                    <li>Policy optimization</li>
+                    <li>Multi-agent RL</li>
                     <li>ROS integration</li>
-                    <li>Integration with da Vinci Research Kit</li>
+                    <li>Graphics User Interface (GUI)</li>
                 </ul>
             </div>
         </section>
@@ -399,6 +406,27 @@ python3 -m http.server 8000 -->
             </div>
         </section>
 
+        <!-- Code Implementation Section -->
+        <!-- <section class="media-section">
+            <h2>Implementation</h2>
+            <p style="text-align: center;">Core controller implementation for the multi-agent surgical robotics framework:</p>
+            
+            <div class="code-section">
+                <div class="code-header">
+                    <span class="code-title">RobotController.cs</span>
+                    <a href="assets/script/RobotController.cs" download class="btn btn-primary btn-small">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+                <details>
+                    <summary style="cursor: pointer; padding: 10px; background: #2d2d2d; color: #fff; font-weight: 600;">
+                        Click to view code
+                    </summary>
+                    <pre><code class="language-csharp" id="controller-code">Loading code...</code></pre>
+                </details>
+            </div>
+        </section> -->
+
 
         <!-- INSERT AFTER PUBLICATION -->
         <!-- Publications Section -->
@@ -453,5 +481,20 @@ python3 -m http.server 8000 -->
             </p>
         </footer>
     </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+    <script>
+        // Load the C# code from file
+        fetch('assets/script/RobotController.cs')
+            .then(response => response.text())
+            .then(code => {
+                document.getElementById('controller-code').textContent = code;
+                Prism.highlightAll();
+            })
+            .catch(error => {
+                document.getElementById('controller-code').textContent = 'Error loading code: ' + error;
+            });
+    </script>
 </body>
 </html>
