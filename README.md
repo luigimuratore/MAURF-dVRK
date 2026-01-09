@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/luigimuratore/MAURF-dVRK)](https://github.com/luigimuratore/MAURF-dVRK/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/luigimuratore/Nail-it)](https://github.com/luigimuratore/Nail-it/graphs/contributors)
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/images/surgicalScene.png" alt="MAURF-dVRK" width="300"/>
+  <img src="assets/images/surgicalScene.png" alt="Nail-it!" width="300"/>
 </div>
 
 <div align="center">
@@ -159,8 +159,8 @@ Development progression of the Patient Side Manipulator (PSM) kinematic model wi
 
 ```bash
 # Clone the repository
-git clone https://github.com/luigimuratore/MAURF-dVRK.git
-cd MAURF-dVRK
+git clone https://github.com/luigimuratore/Nail-it.git
+cd Nail-it
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -190,16 +190,17 @@ For detailed setup instructions, see [SETUP.md](SETUP.md).
 
 ## 📚 Citation
 
-If you use this work in your research, please cite:
+<!-- If you use this work in your research, please cite:
 
 ```bibtex
-@article{muratore2025maurf,
-    title={MAURF-dVRK: Multi-Agent Unified Reinforcement Framework for da Vinci Research Kit},
+@article{muratore2026nailit,
+    title={Nail It!: a learNing framework for Autonomous surgIcaL suturIng and Teleoperation on the dVRK},
     author={Luigi Muratore and Federica Barontini and Giuseppe Averta},
     journal={Conference/Journal Name},
     year={2026}
 }
-```
+``` 
+-->
 
 ---
 
@@ -213,6 +214,6 @@ For questions or collaboration opportunities, please reach out:
 ---
 
 <div align="center">
-  <p>© 2025 MAURF-dVRK Project</p>
+  <p>© 2026 Nail-it Project</p>
 </div>
 
