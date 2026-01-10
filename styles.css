@@ -480,8 +480,8 @@ figcaption {
 }
 
 .gui-image {
-    width: 30%;
-    height: 300px;
+    width: 50%;
+    height: 500px;
     object-fit: cover;
     border-radius: 0.5rem;
     box-shadow: var(--shadow-md);
